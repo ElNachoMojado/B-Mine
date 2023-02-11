@@ -7,13 +7,41 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #e6acd8;
 }
 
-.card {
-    background-color: gray;
-    border: 5px solid black;
-    border-radius: 5px;
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6d4e4;
+    border: 5px solid #a590cf;
+    border-radius: 10px;
     width: 200px;
     height: 100px;
+}
+
+.text {
+    display: flex;
+    flex: 1;
+    padding: 10px 15px;
+    justify-content: center;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    max-height: 51px;
+}
+
+.next {
+    display: flex;
+    flex: 0;
+    justify-content: center;
+    border: 0 solid #a590cf;
+    background-color: #f6d4e4;
+    font-weight: 900;
+    font-family: fantasy;
+    font-size: 15px;
+    align-self: center;
+    text-align: center;
+    border-radius: 3px;
+    margin: 5px 0;
 }

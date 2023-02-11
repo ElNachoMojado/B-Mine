@@ -1,5 +1,19 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card {
-    background-color: red;
+    background-color: gray;
+    border: 5px solid black;
+    border-radius: 5px;
     width: 200px;
     height: 100px;
+    text-align: center;
 }

@@ -46,7 +46,34 @@ body {
 }
 
 .letter {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    width: 600px;
+    height: 200px;
+    background: linear-gradient(#ae77c9,#d292d6,#f9bad5,#f277a2,#d95096,#b5478c);
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0.5em 0.5em black;
+    text-align: center;
+}
+
+.valentine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.letter h1 {
+    margin: 0;
+}
+
+span {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
 }

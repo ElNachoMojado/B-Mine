@@ -50,14 +50,17 @@ function textDisplay () {
             text.style.textAlign = 'center';
             break;
         case 13:
-            letter();
+            makeLetter();
             break;
     }
 }
 
-function letter () {
+function makeLetter () {
     const letter = document.querySelector('.container');
-    letter.innerHTML = "<div class='letter'></div>";
+    letter.innerHTML = "<div class='letter'><h1>Hello again, Beibi</h1><div class='valentine'></div></div>";
+
+    const valentine = document.querySelector('.valentine');
+    valentine.innerHTML = "Will you be my valentine?<span>(Text me the answer...)</span>"
 }
 
 let count = 0;

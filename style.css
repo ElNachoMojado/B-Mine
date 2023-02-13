@@ -16,8 +16,8 @@ body {
     background-color: #f6d4e4;
     border: 5px solid #a590cf;
     border-radius: 10px;
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
 }
 
 .text {
@@ -25,10 +25,10 @@ body {
     flex: 1;
     padding: 10px 15px;
     justify-content: center;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    max-height: 51px;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .next {
@@ -37,11 +37,16 @@ body {
     justify-content: center;
     border: 0 solid #a590cf;
     background-color: #f6d4e4;
-    font-weight: 900;
-    font-family: fantasy;
-    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
     align-self: center;
     text-align: center;
     border-radius: 3px;
     margin: 5px 0;
+}
+
+.letter {
+    width: 100px;
+    height: 100px;
+    background-color: red;
 }
